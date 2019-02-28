@@ -1,1 +1,1 @@
-Homebrew formulas I maintain for personal use
+Homebrew formulae I maintain for personal use
