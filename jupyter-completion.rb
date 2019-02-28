@@ -1,7 +1,9 @@
 class JupyterCompletion < Formula
   desc "Bash and Zsh completion for Jupyter"
   homepage "https://jupyter.org/"
-  url "https://github.com/jupyter/jupyter_core.git"
+  url "https://files.pythonhosted.org/packages/b6/2d/2804f4de3a95583f65e5dcb4d7c8c7183124882323758996e867f47e72af/jupyter_core-4.4.0.tar.gz"
+  sha256 "ba70754aa680300306c699790128f6fbd8c306ee5927976cbe48adacf240c0b7"
+  head "https://github.com/jupyter/jupyter_core.git"
 
   bottle :unneeded
 
