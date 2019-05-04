@@ -1,8 +1,8 @@
 cask 'nhaccuatui' do
-  version '1.0.1'
-  sha256 '96b23912c0b2d8b84f367d8646b19162647ac0b6cf415c990617d3b4b6814c84'
+  version '1.0.2'
+  sha256 '26ceb0085d3ad083be827408de11a3ebf54e3b7e07ec21e35e0169b3254556bb'
 
-  url "http://apps.nhaccuatui.com/download/NhacCuaTui-#{version}-mac.zip"
+  url "http://apps.nhaccuatui.com/download/NhacCuaTui-#{version}.dmg"
   name 'NhacCuaTui'
   homepage 'https://www.nhaccuatui.com/'
 
