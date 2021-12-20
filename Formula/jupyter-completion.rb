@@ -1,11 +1,9 @@
 class JupyterCompletion < Formula
   desc "Bash and Zsh completion for Jupyter"
   homepage "https://jupyter.org/"
-  url "https://files.pythonhosted.org/packages/b6/2d/2804f4de3a95583f65e5dcb4d7c8c7183124882323758996e867f47e72af/jupyter_core-4.4.0.tar.gz"
-  sha256 "ba70754aa680300306c699790128f6fbd8c306ee5927976cbe48adacf240c0b7"
+  url "https://files.pythonhosted.org/packages/78/fa/a949d1f0d2aaaef1890c2ab7fee9e58ed7cc6301ebc26c0afbffff4ea6e3/jupyter_core-4.9.1.tar.gz"
+  sha256 "dce8a7499da5a53ae3afd5a9f4b02e5df1d57250cf48f3ad79da23b4778cd6fa"
   head "https://github.com/jupyter/jupyter_core.git"
-
-  bottle :unneeded
 
   def install
     bash_completion.install "examples/jupyter-completion.bash" => "jupyter"
